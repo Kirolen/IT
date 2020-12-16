@@ -2,6 +2,10 @@
   margin: 0 auto;
 }
 
+body {
+  background-color: grey;
+}
+
 header {
   width: 100%;
   background-color: darkblue;
@@ -12,6 +16,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 30px;
 }
 
 header h1 {
@@ -46,8 +51,30 @@ main .indroduction div img {
   width: 800px;
 }
 
-main .indroduction div p {
+main .indroduction p {
   font-size: 30px;
   text-align: center;
+}
+
+.machine h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+
+.machine div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.machine div p {
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+.machine div img {
+  width: 700px;
 }
 /*# sourceMappingURL=style.css.map */

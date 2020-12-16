@@ -1,12 +1,16 @@
 *{
     margin: 0 auto;
 }
+body{
+    background-color: grey;
+}
 header{
     width: 100%;
     background-color: darkblue;
     height: 80px;
     display: flex;
     align-items: center;
+    margin-bottom: 30px;
     h1{
         color: white;
         text-align: center;
@@ -27,12 +31,25 @@ main{
         div{
             display: flex;
             img{
-                width: 800px;
+                width: 800px;}
             }
         p{
             font-size: 30px;
             text-align: center;
         }
     }
+
+}
+
+.machine{
+    h1{text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    font-size: 40px;}
+    div{display: flex;
+        p{font-size: 30px; margin-left: 30px;}
+    img{
+        width: 700px;
+     } 
     }
 }
