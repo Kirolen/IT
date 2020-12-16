@@ -56,27 +56,29 @@ main .indroduction p {
   text-align: center;
 }
 
-.machine h1 {
+main .machine h1 {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
   font-size: 40px;
 }
 
-.machine div {
+main .machine .learning, main .machine .data {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 50px;
 }
 
-.machine div p {
+main .machine .learning p, main .machine .data p {
   font-size: 30px;
-  margin-left: 30px;
+  margin-left: 50px;
   margin-right: 50px;
 }
 
-.machine div img {
+main .machine .learning img, main .machine .data img {
   width: 400px;
   margin-left: 50px;
+  margin-right: 50px;
 }
 /*# sourceMappingURL=style.css.map */
