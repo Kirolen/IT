@@ -16,7 +16,6 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 30px;
 }
 
 header h1 {
@@ -72,9 +71,11 @@ main .indroduction p {
 .machine div p {
   font-size: 30px;
   margin-left: 30px;
+  margin-right: 50px;
 }
 
 .machine div img {
-  width: 700px;
+  width: 400px;
+  margin-left: 50px;
 }
 /*# sourceMappingURL=style.css.map */
