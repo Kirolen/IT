@@ -10,6 +10,7 @@ header{
     height: 80px;
     display: flex;
     align-items: center;
+    position: fixed;
 
     h1{
         color: white;
@@ -20,7 +21,7 @@ header{
 main{
     background-color: black;
     max-width: 1400px;
-    padding-top: 50px;
+    padding-top: 100px;
     color: white;
     .indroduction{
         max-width: 1200px;

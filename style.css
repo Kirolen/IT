@@ -16,6 +16,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: fixed;
 }
 
 header h1 {
@@ -27,7 +28,7 @@ header h1 {
 main {
   background-color: black;
   max-width: 1400px;
-  padding-top: 50px;
+  padding-top: 100px;
   color: white;
 }
 
