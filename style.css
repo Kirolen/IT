@@ -181,4 +181,23 @@ main .good p {
 main .good img {
   width: 1000px;
 }
+
+.fact {
+  padding-top: 50px;
+  text-align: center;
+}
+
+footer {
+  max-width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: darkblue;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
 /*# sourceMappingURL=style.css.map */
